@@ -1,4 +1,4 @@
-const { fizzbuzz } = require("../src");
+import { fizzbuzz } from "../src";
 
 describe("Fizzbuzz", () => {
     test("Should print num when num is not multiple of 3 or 5", () => {
