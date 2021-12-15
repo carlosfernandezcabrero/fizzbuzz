@@ -1,7 +1,7 @@
 {
-    "name": "javascript-skeleton",
+    "name": "Fizzbuzz",
     "version": "1.0.0",
-    "description": "Javascript skeleton to develop apis with express",
+    "description": "Fizzbuzz",
     "main": "src/index.js",
     "scripts": {
         "dev": "babel-node -r dotenv/config src/index.js",
