@@ -1,72 +1,26 @@
-# Javascript API Skeleton
+# FizzBuzz
 
-## Description
+FizzBuzz problem solving example. The problem is this:
 
-Javascript skeleton for developing Node.js applications with Javascript. The skeleton have integrated EsLint for lint code and Prettier for format code.
+> Write a short program that prints each number from 1 to 100 on a new line.
+> For each multiple of 3, print "Fizz" instead of the number.
+> For each multiple of 5, print "Buzz" instead of the number.
+> For numbers which are multiples of both 3 and 5, print "FizzBuzz" instead of the number.
 
 ## Usage
 
-### Configure environment variables
+### Test solution
 
 ---
 
-1. Create an .env file in th root of the project.
-2. Set the environment variables you need.
-
-**NOTE:** The configured environment variables are loaded automatically when run the dev or start scripts.
-
-### Lint
-
----
-
-``` shell
-npm run lint
-```
-
-### Test
-
----
-
-The test are run with Jest Javascript Testing Framework.
-
-Basic command:
-
-``` shell
+```shell
 npm run test
 ```
 
-If you want to see the coverage, run:
-
-``` shell
-npm run test:coverage
-```
-
-### Develop
+### Run solution
 
 ---
 
-``` shell
-npm run dev
-```
-
-### Build
-
----
-
-``` shell
-npm run build
-```
-
-**NOTE:** Babel is used to compile javascript files.
-
-### Start the application as in production
-
----
-
-``` shell
+```shell
 npm run start
 ```
-
-## Packages installed for production
-
-- DotEnv
